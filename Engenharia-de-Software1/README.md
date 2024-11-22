@@ -40,7 +40,6 @@ A arquitetura parece ser bastante modular, com vários serviços interconectados
 ![image](https://github.com/user-attachments/assets/48b31c20-e35e-4113-b33a-2a6771dd078c)
 
 ~~~java
-// Classe Conta
 class Conta {
     private int agencia;
     private int contaCorrente;
@@ -59,25 +58,21 @@ class Conta {
     }
 }
 
-// Classe ContaPoupanca
 class ContaPoupanca extends Conta {
     private int diaDeposito;
 
     public void verificarVencimento(int diaAtual) {
         if (diaAtual != this.diaDeposito) {
-            // Realizar operações de vencimento
         }
     }
 }
 
-// Classe Cliente
 class Cliente {
     private int cpf;
     private String nome;
     private String telefone;
 
     public void mostrarCPF() {
-        // Exibir o CPF do cliente
     }
 
     public void verificarSaldo(Conta conta) {
