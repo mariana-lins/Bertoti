@@ -1,0 +1,6 @@
+[submodule "ENGENHARIA_DE_SOFTWARE_3"]
+	path = ENGENHARIA_DE_SOFTWARE_3
+	url = https://github.com/mariana-lins/ENGENHARIA_DE_SOFTWARE_3.git
+[submodule "Engenharia_Software_II"]
+	path = Engenharia_Software_II
+	url = https://github.com/mariana-lins/Engenharia_Software_II.git
